@@ -1,5 +1,5 @@
 version = 0.1
-[default.deploy]
+[default.deploy.parameters]
 stack_name = "todo-app-production"
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-mgenxqjrm4fs"
 s3_prefix = "todo-list-aws"
