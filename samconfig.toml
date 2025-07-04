@@ -1,5 +1,5 @@
 version = 0.1
-[default.deploy.parameters]
+[staging.deploy.parameters]
 stack_name = "todo-app-staging"
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-mgenxqjrm4fs"
 s3_prefix = "todo-list-aws"
@@ -7,3 +7,4 @@ region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
 parameter_overrides = "Stage=\"staging\""
 image_repositories = []
+no_fail_on_empty_changeset = true
